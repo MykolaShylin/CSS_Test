@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My first site</title>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href="style.css">  
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="info">       
+            <img id="avatar" src="Avatar.jpg" alt="Моя аватарка">     
+            <div class="info-text">           
+                <h1>Шилин Николай</h1>
+                <p>Я <strong>инженер-проектировщик в сфере газораспределения</strong>, решивший кардинально сменить проффесию</p>
+                <p>Я люблю заниматься спортом, слушать металл-рок музыку, смотреть кино и программировать</p>
+                <div class="social">
+                    <a href="https://linkedin.com/in/mykola-shylin-163976265/" target="_blank">Linkedin</a></td>
+                    <a href="https://github.com/MykolaShylin" target="_blank">GitHub</a></td>
+                    <a href="https://t.me/Mykola_Shylin" target="_blank">Телеграмм</a></td>
+                </div>  
+            </div>
+        </main>                    
+
+        <div class="card bg-yellow">
+            <h2>Образование</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Год</th>
+                        <th>Учебное заведение</th>
+                        <th>Специальность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2004-2016</td>
+                        <td>Харьковская общеобразовательная школа №122</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2016-2021</td>
+                        <td>Харьковский Национальный Университет Строительства и Архитектуры</td>
+                        <td>Тепло-газо-снабжение и вентиляция, и газодобыча</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>        
+        
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Организация</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ООО "Фора"</td>
+                        <td>Младший инженер</td>
+                        <td>2017-2019</td>
+                    </tr>
+                    <tr>
+                        <td>АО "Харьковгоргаз"</td>
+                        <td>Инженер-проектировщик</td>
+                        <td>2019-текущий день</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>        
+
+        <div class="card bg-red">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Спорт</li>
+                <li>Кино</li>
+                <li>Игры</li>
+            </ol>
+        </div> 
+
+        <div class="contact">
+            <footer>
+                <h2>Связаться со мной</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">            
+                    </div>
+
+                    <div class="form-group">
+                        <label for="number">Ваш номер:</label>
+                        <input type="tel" id="number" placeholder="Введите телефон">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="text">Ваше cообщение:</label>
+                        <textarea id="text" placeholder="Введите сообщение"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="text" id="email" placeholder="Введите email">
+                                            
+                    </div> 
+                    <input class="btn" type="submit" value="Связаться">
+                    
+                </form>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
